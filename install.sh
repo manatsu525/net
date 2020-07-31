@@ -22,6 +22,7 @@ unzip net-speeder-master.zip
 cd net-speeder-master/
 apt install libnet1-dev
 apt install libpcap0.8-dev
+apt install gcc
 if hostnamectl status | grep -q openvz;then
     sh build.sh -DCOOKED
     service
