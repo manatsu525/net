@@ -36,4 +36,4 @@ else
 fi
 systemctl daemon-reload
 systemctl enable net-speeder.service
-systemctl start net-speeder.service
+systemctl start net-speeder
