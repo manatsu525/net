@@ -17,6 +17,7 @@ WantedBy=multi-user.target
 EOF
 }
 
+apt install unzip -y
 wget https://github.com/manatsu525/net-speeder/releases/download/v1.0/net-speeder-master.zip
 unzip net-speeder-master.zip
 cd net-speeder-master/
