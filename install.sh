@@ -33,6 +33,7 @@ else
     sh build.sh
     service
     mv net-speeder.service /etc/systemd/system/
+    ethtool -K eth0 tso off
 fi
 systemctl daemon-reload
 systemctl enable net-speeder.service
