@@ -9,7 +9,7 @@ Wants=network-online.target
 [Service]
 Type=simple
 User=root
-ExecStart=/root/net-speeder-master/net_speeder eth0 "ip"
+ExecStart=/root/net-speeder-master/net_speeder eth0 "tcp"
 Restart=on-failure
 RestartSec=10s
 [Install]
